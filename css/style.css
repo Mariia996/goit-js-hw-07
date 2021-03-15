@@ -49,6 +49,7 @@ button.focus {
 #counter {
   margin-top: 40px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 #value {
@@ -57,8 +58,24 @@ button.focus {
 
 }
 
+.form-input {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form-input > input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
 #validation-input {
   border: 3px solid #bdbdbd;
+  margin-bottom: 40px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #validation-input.valid {
@@ -67,4 +84,18 @@ button.focus {
 
 #validation-input.invalid {
   border-color: #f44336;
+}
+
+#font-size-control {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#text {
+  text-align: center;
+}
+
+.range-container {
+  text-align: center;
 }
