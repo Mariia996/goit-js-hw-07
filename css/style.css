@@ -26,9 +26,11 @@ img {
 
 body {
     margin: 0;
+    font-family: 'Calibri', sans-serif;
+    font-size: 30px;
 }
 
-button {
+#counter > button {
   width: 50px;
   height: 50px;
   background-color: teal;
@@ -40,8 +42,8 @@ button {
   font-size: 20px;
 }
 
-button:hover,
-button.focus {
+#counter > button:hover,
+#counter > button.focus {
   background-color: #fff;
   color: rgb(2, 105, 109);
 }
@@ -63,10 +65,23 @@ button.focus {
   text-align: center;
 }
 
+#font-size-control {
+  width: 300px;
+  height: 50px;
+
+  font-family: 'Calibri', sans-serif;
+  font-size: 30px;
+}
+
 .form-input > input {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 300px;
+  height: 50px;
+
+  font-family: 'Calibri', sans-serif;
+  font-size: 30px;
 }
 
 
@@ -76,6 +91,12 @@ button.focus {
   display: block;
   margin-right: auto;
   margin-left: auto;
+
+  width: 300px;
+  height: 50px;
+
+  font-family: 'Calibri', sans-serif;
+  font-size: 30px;
 }
 
 #validation-input.valid {
@@ -98,4 +119,32 @@ button.focus {
 
 .range-container {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+#controls {
+  text-align: center;
+}
+
+#controls > input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 30px;
+
+  font-family: 'Calibri', sans-serif;
+  font-size: 30px;
+}
+
+#controls > button {
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 50px;
+
+  font-family: 'Calibri', sans-serif;
+  font-size: 30px;
+
 }
