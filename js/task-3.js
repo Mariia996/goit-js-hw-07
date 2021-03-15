@@ -19,7 +19,7 @@ const images = [
 
 const galleryEl = document.getElementById('gallery');
 
-const markup = images.reduce((string, item) => string + `<li><img src=${item.url}, alt=${item.alt}></img></li>`, '');
+const markup = images.reduce((string, item) => string + `<li><img src=${item.url}, alt=${item.alt} ></img></li>`, '');
 
 galleryEl.insertAdjacentHTML('afterbegin', markup);
 

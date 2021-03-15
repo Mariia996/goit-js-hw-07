@@ -1,6 +1,4 @@
 const categories = document.querySelectorAll('.item');
-
-
 console.log(`В списке ${categories.length} категории`);
 
 for (const item of categories) {
@@ -9,3 +7,4 @@ for (const item of categories) {
     console.log(`Категория: ${titlesEl}`);
     console.log(`Количество элементов ${elemCount}`);
 }
+
